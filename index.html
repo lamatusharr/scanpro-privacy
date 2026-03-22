@@ -3,86 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ScanPro - Privacy Policy</title>
+    <title>ScanPro — Privacy Policy</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #333; background: #fafafa; padding: 20px; }
-        .container { max-width: 720px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 40px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
-        h1 { font-size: 28px; margin-bottom: 8px; color: #1a1a1a; }
-        .date { font-size: 14px; color: #888; margin-bottom: 32px; }
-        h2 { font-size: 20px; margin-top: 28px; margin-bottom: 12px; color: #1a1a1a; }
-        p, li { font-size: 15px; color: #444; margin-bottom: 12px; }
-        ul { padding-left: 24px; margin-bottom: 16px; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 700px;
+            margin: auto;
+            padding: 40px 20px;
+            line-height: 1.7;
+            color: #2C1810;
+            background: #FFF8F0;
+        }
+        h1 { color: #C2603F; }
+        h2 { color: #5C3D2E; margin-top: 28px; }
         a { color: #C2603F; }
-        .back { display: inline-block; margin-bottom: 20px; font-size: 14px; color: #888; text-decoration: none; }
+        .back { font-size: 14px; color: #8B7355; text-decoration: none; }
         .back:hover { color: #C2603F; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <a class="back" href="/">&larr; Back to ScanPro Support</a>
-        <h1>Privacy Policy</h1>
-        <p class="date">Effective Date: March 22, 2026</p>
 
-        <p>ScanPro ("we", "our", or "the App") is a document scanning application for iOS. We respect your privacy and are committed to protecting your personal data. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data.</p>
+    <a class="back" href="/scanpro-support/">&larr; Back to ScanPro Support</a>
 
-        <h2>1. Information We Collect</h2>
+    <h1>Privacy Policy</h1>
+    <p><b>ScanPro</b> — Last updated: March 2026</p>
 
-        <h3 style="font-size:17px; margin-top:16px; margin-bottom:8px;">1.1 Information You Provide</h3>
-        <ul>
-            <li><strong>Account Information:</strong> If you sign in with Google, we receive your name, email address, and profile picture from Google. This is used solely for authentication.</li>
-            <li><strong>Scanned Documents:</strong> Documents you scan, import, or create are stored locally on your device. We do not upload, access, or store your documents on our servers.</li>
-        </ul>
+    <h2>Overview</h2>
+    <p>ScanPro is a document scanning app developed by Tushar Lama. Your privacy is important to us. This policy explains what data we collect, why, and how it's handled.</p>
 
-        <h3 style="font-size:17px; margin-top:16px; margin-bottom:8px;">1.2 Information Collected Automatically</h3>
-        <ul>
-            <li><strong>Analytics Data:</strong> We use Firebase Analytics to collect anonymous usage data such as screen views, feature usage, and app events. This data does not identify you personally and helps us improve the app.</li>
-            <li><strong>Crash Reports:</strong> We use Firebase Crashlytics to collect crash logs and diagnostic information to fix bugs and improve app stability.</li>
-            <li><strong>Advertising Data:</strong> We use Google AdMob to display advertisements. AdMob may collect device identifiers and usage data to serve relevant ads. See Google's privacy policy for details: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
-        </ul>
+    <h2>Data We Collect</h2>
 
-        <h2>2. How We Use Your Information</h2>
-        <ul>
-            <li>To provide and maintain the App's functionality</li>
-            <li>To authenticate your identity when you sign in</li>
-            <li>To analyze usage patterns and improve the App</li>
-            <li>To diagnose and fix technical issues</li>
-            <li>To display advertisements</li>
-        </ul>
+    <p><b>Authentication Data</b><br>
+    When you sign in with Google or Apple, we receive your name, email address, and profile photo URL. This is stored securely in Firebase Authentication and Firestore.</p>
 
-        <h2>3. Data Storage & Security</h2>
-        <p>All scanned documents, images, and OCR text are stored locally on your device using Apple's SwiftData framework. We do not transmit your documents to any external server. Your data is protected by your device's built-in security features including encryption and device passcode.</p>
+    <p><b>Device Information</b><br>
+    Upon sign-in, we store basic device details: device model, iOS version, app version, locale, and timezone. This helps us diagnose issues and improve the app.</p>
 
-        <h2>4. Camera & Photo Library</h2>
-        <p>ScanPro requests access to your device's camera to scan documents and your photo library to import images. These permissions are used solely for the App's scanning and import features. Images captured or imported are stored locally on your device.</p>
+    <p><b>Analytics</b><br>
+    We collect anonymous usage analytics (screen views, feature usage, scan counts) through Firebase Analytics to understand how the app is used and improve it. No document content is ever transmitted.</p>
 
-        <h2>5. Third-Party Services</h2>
-        <p>We use the following third-party services:</p>
-        <ul>
-            <li><strong>Firebase (Google):</strong> Authentication, Analytics, Crashlytics, Remote Config</li>
-            <li><strong>Google AdMob:</strong> Advertising</li>
-            <li><strong>Google Sign-In:</strong> Authentication</li>
-        </ul>
-        <p>Each service has its own privacy policy governing the data they collect.</p>
+    <p><b>Crash Reports</b><br>
+    We use Firebase Crashlytics to collect crash logs and diagnostic information to fix bugs and improve app stability.</p>
 
-        <h2>6. Children's Privacy</h2>
-        <p>ScanPro is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal data, please contact us and we will delete it.</p>
+    <p><b>Advertising</b><br>
+    ScanPro uses Google AdMob to display banner and interstitial ads. AdMob may collect device identifiers and usage data as described in <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
 
-        <h2>7. Your Rights</h2>
-        <p>You can:</p>
-        <ul>
-            <li>Delete all your scanned documents from the App's Settings</li>
-            <li>Sign out and remove your account data</li>
-            <li>Revoke camera and photo library permissions via iOS Settings</li>
-            <li>Reset your advertising identifier via iOS Settings</li>
-        </ul>
+    <h2>Data We Do NOT Collect</h2>
+    <ul>
+        <li>We do not access, read, or upload your scanned documents</li>
+        <li>We do not collect OCR text results</li>
+        <li>We do not access your photo library beyond images you explicitly select</li>
+        <li>We do not sell any personal data to third parties</li>
+    </ul>
 
-        <h2>8. Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the "Effective Date" at the top of this page.</p>
+    <h2>Data Storage</h2>
+    <p>All scanned documents are stored locally on your device using SwiftData. They never leave your device unless you explicitly share or export them.</p>
+    <p>Authentication and profile data is stored in Google Firebase (servers in the United States).</p>
 
-        <h2>9. Contact Us</h2>
-        <p>If you have questions about this Privacy Policy, contact us at:</p>
-        <p><a href="mailto:scanprosupport@gmail.com">scanprosupport@gmail.com</a></p>
-    </div>
+    <h2>Camera & Photo Library</h2>
+    <p>ScanPro requests access to your device's camera to scan documents and your photo library to import images. These permissions are used solely for the App's scanning and import features. Images captured or imported are stored locally on your device.</p>
+
+    <h2>Third-Party Services</h2>
+    <ul>
+        <li><b>Firebase Authentication</b> — Sign-in and user management</li>
+        <li><b>Firebase Firestore</b> — User profile storage</li>
+        <li><b>Firebase Analytics</b> — Anonymous usage analytics</li>
+        <li><b>Firebase Crashlytics</b> — Crash reporting</li>
+        <li><b>Firebase Remote Config</b> — App configuration</li>
+        <li><b>Google AdMob</b> — Advertising</li>
+    </ul>
+
+    <h2>Your Rights</h2>
+    <p>You can:</p>
+    <ul>
+        <li>Delete all your scanned documents from the App's Settings</li>
+        <li>Sign out and remove your account data</li>
+        <li>Revoke camera and photo library permissions via iOS Settings</li>
+        <li>Reset your advertising identifier via iOS Settings</li>
+    </ul>
+    <p>To request complete data deletion from our servers, contact us at the email below.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>ScanPro is not directed at children under 13. We do not knowingly collect data from children.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this policy from time to time. Changes will be reflected on this page with an updated date.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this privacy policy or your data:<br>
+    <a href="mailto:scanprosupport@gmail.com">scanprosupport@gmail.com</a></p>
+
+    <p style="margin-top:40px; font-size:13px; color:#8B7355;">© 2026 ScanPro. All rights reserved.</p>
+
 </body>
 </html>
